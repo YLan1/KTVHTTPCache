@@ -36,7 +36,7 @@ FOUNDATION_EXPORT const unsigned char KTVHTTPCacheVersionString[];
 /**
  *  KTVHTTPCache is a smart media cache framework.
  */
-@interface KTVHTTPCache : NSObject
+@interface KTVHTTPCacheRen : NSObject
 
 /**
  *  HTTP Server
@@ -337,7 +337,7 @@ FOUNDATION_EXPORT const unsigned char KTVHTTPCacheVersionString[];
  */
 #pragma mark - Deprecated
 
-@interface KTVHTTPCache (Deprecated)
+@interface KTVHTTPCacheRen (Deprecated)
 
 + (void)logDeleteRecordLog                                                      __attribute__((deprecated("Use +logDeleteRecordLogFile instead.")));
 + (NSString *)logRecordLogFilePath                                              __attribute__((deprecated("Use +logRecordLogFileURL instead.")));

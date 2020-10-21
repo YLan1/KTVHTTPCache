@@ -6,14 +6,14 @@
 //  Copyright © 2017年 Single. All rights reserved.
 //
 
-#import "KTVHTTPCache.h"
+#import "KTVHTTPCacheRen.h"
 #import "KTVHCDataStorage.h"
 #import "KTVHCHTTPServer.h"
 #import "KTVHCDownload.h"
 #import "KTVHCURLTool.h"
 #import "KTVHCLog.h"
 
-@implementation KTVHTTPCache
+@implementation KTVHTTPCacheRen
 
 #pragma mark - HTTP Server
 
@@ -201,7 +201,7 @@
 
 #pragma mark - Deprecated
 
-@implementation KTVHTTPCache (Deprecated)
+@implementation KTVHTTPCacheRen (Deprecated)
 
 + (void)logDeleteRecordLog
 {
